@@ -1,40 +1,44 @@
-<!-- BEGIN (write your solution here) -->
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>resume</title>
+    <script src = "Examples/treeFromObj.js" defer> </script>
+    <script src = "Examples/сalendar.js" defer> </script>
+    <title>Experiments</title>
 </head>
 <body>
-<div id = "header">
-    <h1>Nadezhda Chernyatina</h1>
-    <h3>Frontend developer</h3>
-    <p><a  href="mailto:nady571@mail.ru">nady571@mail.ru</a>, <a href="https://vk.com/id302259086">page VK</a></p>
-</div>
-<div id = "main">
-    <h2>Experience</h2>
-    <ul> First
-        <li>2007-2017</li>
-        <li>2000-2007</li>
-    </ul>
-    <h2>Education</h2>
-    <ul>Second
-        <li>University</li>
-        <li>School</li>
-    </ul>
-    <h2>Hobbies</h2>
-    <ul>Third
-        <li>Mathematics</li>
-        <li>Programming</li>
-    </ul>
+<div class="site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
+    <header class="masthead">
+        <h2 class="site-title">Мои эксперименты</h2>
+    </header>
+
+    <main id="content" class="main-content">
+        <h2>Содержание</h2>
+        <p>Здесь я буду выкладывать свои небольшие учебные задачки</p>
+    </main>
+    <aside class="sidebar">
+        <h3>Список задач</h3>
+
+        <ul>
+            <li><a class = "treeFromObj" href="#container">Дерево из объекта</a></li>
+            <li><a class = "calendar" href="#container">Календарь</a></li>
+        </ul>
+    </aside>
+
+    <aside id="container" class="twin container1">
+
+    </aside>
+    <aside class="twin container2">
+
+    </aside>
+
+    <footer class="footer grid">
+        <aside>Nady Ch tel. +7 333 222 11 00</aside>
+    </footer>
 
 </div>
-<div id = "footer">
-    <p>Nadezhda, adr. NN O street, tel. +7 987 901 24 55</p>
-</div>
-
 </body>
 </html>
-<!-- END -->
